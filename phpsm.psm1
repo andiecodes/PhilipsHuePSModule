@@ -6,7 +6,7 @@ Purpose: Module to Connect to Philips Hue Lights via Powershell
 #cls
 
 #region IMPORT cmdlets
-
+get-childitem
 
 #endregion IMPORT cmdlets
 
