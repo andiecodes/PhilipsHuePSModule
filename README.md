@@ -16,10 +16,10 @@ The first thing you need to do is, detect your Philips Hue Bridge with the `get-
  IP              : 192.168.1.15
  Port            : 80
  PresentationURL : http://192.168.1.15/index.html
- UUID            : uuid:2f402f80-da50-11e1-9b23-001788af80ab
+ UUID            : uuid:2f502e80-df50-33e1-9b23-004788af86ab
  ModelName       : Philips hue bridge 2015
  ModelNumber     : BSB002
- SerialNumber    : 001788af80ab
+ SerialNumber    : 001288af70fb
  deviceType      : urn:schemas-upnp-org:device:Basic:1
  DescriptionXML  : http://192.168.1.15/description.xml
 ```
