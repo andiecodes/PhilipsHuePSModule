@@ -1,5 +1,5 @@
 # PhilipsHueAPI Module
-The PhilipsHueAPI PowerShell Module allows you to communicate between your PhilipsHue Smart Home Devices and any Device that runs PowerShell 6.2.1. It detects a Philips Hue Bridge in your Network, connect to it, create new  api user and get all lights that are installed in your environment. It's based on the [API Developer Guide Version 1.0](https://developers.meethue.com/)
+The PhilipsHueAPI PowerShell Module allows you to communicate between your PhilipsHue Smart Home Devices and any Device that runs PowerShell 6.2.1. You can detects a Philips Hue Bridge in your Network `get-PHBridge`, read local config `get-PHBConfig`, create new api user `new-PHAPIUser` and get all lights that are installed in your environment `get-PHLights`. It's based on the [API Developer Guide Version 1.0](https://developers.meethue.com/)
 
 Download the Zip, extract it, copy the Folder **PhilipsHueAPI** to **C:\Windows\System32\WindowsPowerShell\v1.0\Modules**
 
@@ -26,6 +26,8 @@ You can access the stored Bridge Information via `get-PHBConfig` for further use
 If you have successfully established a connection to your Philips Hue Bridge it's necessary to create a new API Application User with the `new-PHAPIUser -Application 'YourApplicationName'`cmdlet. To be able to do so you need to **press the link button** on your Philips Hue Bridge, now you have 30 secondes time to create a new API Application User. The `-Application` Parameter is mandatory, the `-Storecreds` parameter is optional. 
 
 ## [PHAPI lights cmdlets](https://github.com/andiecodes/PhilipsHuePSModule/tree/master/PHAPI_lights_cmdlets)
+
+
 
 
 
