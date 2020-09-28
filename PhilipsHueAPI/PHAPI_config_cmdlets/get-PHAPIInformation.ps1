@@ -1,3 +1,9 @@
+<#
+Author: PS_Nerd
+Purpose: cmdlet File of the PhilipsHueAPi Module to communicate between PhilipsHue Smart Home Devices 
+         and any device that runs PowerShell 6.2.1
+#>
+
 #region get-PHAPIInformation
 
 <#
