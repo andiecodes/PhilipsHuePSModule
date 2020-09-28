@@ -1,7 +1,7 @@
 # PhilipsHueAPI Module
 The PhilipsHueAPI PowerShell Module allows you to detect a Philips Hue Bridge in your Network, connect to it, create new  api user and get all lights that are installed in your environment. 
 
-### Further Options, get-PHGroups, get-PHScenes, get-PHSchedul, get-PHSensors
+##### Further Options get-PHGroups, get-PHScenes, get-PHSchedul, get-PHSensors
 
 It's based on the [API Developer Guide Version 1.0](https://developers.meethue.com/)
 
