@@ -11,6 +11,7 @@ in a PS-Object. This cmdlet has several switches like -IP or -SerialNumber, see 
 
 It also includes an Error handler if no Device with the ModelName '*Philips hue bridge*' was found.
 It's recommended to store the Information about your Hue Bridge, because the detection took a while.
-The Module offers an easy way to store User Login Information. Use 'get-PHBridge -StoreConfig' to store it in the User Profil of the current user $($env:USERPROFILE + '\PhilipsHueBridge.xml').
-You can access the stored user Login Information via 'get-PHBConfig' for further use.
+The Module offers an easy way to store Bridge Information. Use 'get-PHBridge -StoreConfig' to store it in the User Profil of the current user $($env:USERPROFILE + '\PhilipsHueBridge.xml').
+You can access the stored Bridge Information via 'get-PHBConfig' for further use.
 
+If you 
