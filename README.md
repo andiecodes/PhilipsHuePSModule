@@ -33,7 +33,14 @@ You can access the stored Bridge Information via `get-PHBConfig` for further use
 
 ## [PHAPI cmdlets](https://github.com/andiecodes/PhilipsHuePSModule/tree/master/PHAPI_config_cmdlets)
 
-If you have successfully established a connection to your Philips Hue Bridge it's necessary to create a new API Application User with the `new-PHAPIUser -Application 'YourApplicationName'`cmdlet. To be able to do so you need to **press the link button** on your Philips Hue Bridge, now you have 30 secondes time to create a new API Application User. The `-Application` Parameter is mandatory, the `-Storecreds` parameter is optional. 
+If you have successfully established a connection to your Philips Hue Bridge it's necessary to create a new API Application User with the `new-PHAPIUser -Application 'YourApplicationName'`cmdlet. To be able to do so you need to **press the link button** on your Philips Hue Bridge, now you have 30 secondes time to create a new API Application User. If you didn't press the Button you will get the Following Error Message: 
+
+```pwsh
+new-PHAPIUser -Application 'YourApplicationName'
+[{"error":{"type":101,"address":"/","description":"link button not pressed"}}]
+```
+
+The `-Application` Parameter is mandatory, the `-Storecreds` parameter is optional. 
 
 ## [PHAPI lights cmdlets](https://github.com/andiecodes/PhilipsHuePSModule/tree/master/PHAPI_lights_cmdlets)
 
