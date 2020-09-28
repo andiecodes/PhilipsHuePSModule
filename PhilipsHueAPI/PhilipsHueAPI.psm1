@@ -5,7 +5,7 @@ Purpose: Module to Connect to Philips Hue Lights via Powershell
 Clear-Host
 
 #region IMPORT cmdlets
-$AllPSFiles = get-childitem -filter *.ps1 -Recurse | Select-Object FullName
+$AllPSFiles = get-childitem -Path C:\Windows\System32\WindowsPowerShell\v1.0\Modules\PhilipsHueAPI -filter *.ps1 -Recurse | Select-Object FullName
 foreach($File in $AllPSFiles){Import-Module -Name $File.FullName}
 #endregion IMPORT cmdlets
 
