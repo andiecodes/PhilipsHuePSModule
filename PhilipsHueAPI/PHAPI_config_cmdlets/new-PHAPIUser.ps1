@@ -26,7 +26,7 @@ function new-PHAPIUser
     Begin
     {
       $body = "{`"devicetype`": `"$Application`"}"
-      $PhilipsHueBridgeConfig = load-PHBConfig
+      $PhilipsHueBridgeConfig = get-PHBConfig
       $PHUser = $(Invoke-WebRequest "http://$($PhilipsHueBridgeConfig.IP)/api/" -Method Post -Body $body).content
     }
     Process
