@@ -9,7 +9,7 @@ The first thing you need to do is, detect your Philips Hue Bridge with the `get-
 
 I'm using the supported UPnPDeviceFinder to detect the Bridge
 After this step i store the Information from http://YourPhilipsHueBridgeIP/description.xml
-in a PS-Object. This cmdlet has several switches like `-IP` or `-SerialNumber`, see Examples...
+in a PS-Object. This cmdlet has several switches like `-IP` or `-SerialNumber`, see [Examples](https://github.com/andiecodes/PhilipsHuePSModule/blob/master/PHBridge_config_cmdlets/get-PHBridge.ps1)
 
 It also includes an Error handler if no Device with the ModelName '*Philips hue bridge*' was found.
 It's recommended to store the Information about your Hue Bridge, because the detection took a while.
