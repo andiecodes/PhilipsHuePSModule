@@ -3,7 +3,7 @@ The PhilipsHueAPI Module for PowerShell allows you to communicate between your P
 
 [Download the Zip](https://github.com/andiecodes/PhilipsHuePSModule/archive/master.zip), extract it, copy the Folder **PhilipsHueAPI** to **C:\Windows\System32\WindowsPowerShell\v1.0\Modules**
 
-If the Module was added to your Modules Folder, you can run `Import-Module PhilipsHueAPI` to use the PHAPI-cmdlets.
+If the Module was added to your Module Folder, you can run `Import-Module PhilipsHueAPI` to use the PHAPI-cmdlets.
 
 [PhilipsHue API ChangeLOG](https://developers.meethue.com/develop/hue-api/api-documentation-changelog/)
 
