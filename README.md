@@ -18,7 +18,7 @@ You can access the stored Bridge Information via `get-PHBConfig` for further use
 
 ## PHAPI cmdlets
 
-If you have successfully established a connection to your Philips Hue Bridge it's necessary to create a new API Application User with the `new-PHAPIUser -Application 'YourApplicationName' `. To be able to do so you need to **press the link button** on your Philips Hue Bridge, now you have 30 secondes time to create a new API Application User. The `-Application` Parameter is mandatory, the `-Storecreds` parameter is optional. 
+If you have successfully established a connection to your Philips Hue Bridge it's necessary to create a new API Application User with the `new-PHAPIUser -Application 'YourApplicationName'`. To be able to do so you need to **press the link button** on your Philips Hue Bridge, now you have 30 secondes time to create a new API Application User. The `-Application` Parameter is mandatory, the `-Storecreds` parameter is optional. 
 
 ## PHAPI lights cmdlets
 
