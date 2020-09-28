@@ -12,7 +12,7 @@ If the Module was added to your Modules Folder, you can run `Import-Module Phili
 ## [PHBridge cmdlets](https://github.com/andiecodes/PhilipsHuePSModule/tree/master/PHBridge_config_cmdlets)
 
 The first thing you need to do is, detect your Philips Hue Bridge with the `get-PHBridge` cmdlet.
-`
+```pwsh
  IP              : 192.168.1.15
  Port            : 80
  PresentationURL : http://192.168.1.15/index.html
@@ -22,7 +22,7 @@ The first thing you need to do is, detect your Philips Hue Bridge with the `get-
  SerialNumber    : 001788af80ab
  deviceType      : urn:schemas-upnp-org:device:Basic:1
  DescriptionXML  : http://192.168.1.15/description.xml
-`
+```
 I'm using the supported UPnPDeviceFinder to detect the Bridge after this step i store the Information from http://YourPhilipsHueBridgeIP/description.xml
 in a PS-Object. This cmdlet has several switches like `-IP` or `-SerialNumber`, see [Examples](https://github.com/andiecodes/PhilipsHuePSModule/blob/master/PHBridge_config_cmdlets/get-PHBridge.ps1)
 
