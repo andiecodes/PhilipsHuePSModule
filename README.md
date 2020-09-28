@@ -5,7 +5,7 @@ The PhilipsHueAPI PowerShell Module allows you to detect a Philips Hue Bridge in
 
 It's based on the [API Developer Guide Version 1.0](https://developers.meethue.com/)
 
-[ChangeLOG](https://developers.meethue.com/develop/hue-api/api-documentation-changelog/)
+[PhilipsHue API ChangeLOG](https://developers.meethue.com/develop/hue-api/api-documentation-changelog/)
 
 ## [PHBridge cmdlets](https://github.com/andiecodes/PhilipsHuePSModule/tree/master/PHBridge_config_cmdlets)
 
