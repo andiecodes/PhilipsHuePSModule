@@ -22,6 +22,7 @@ If you have successfully established a connection to your Philips Hue Bridge it'
 
 ## PHAPI lights cmdlets
 
+`git status`
 
 
 
