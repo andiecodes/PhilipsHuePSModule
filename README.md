@@ -14,4 +14,8 @@ It's recommended to store the Information about your Hue Bridge, because the det
 The Module offers an easy way to store Bridge Information. Use 'get-PHBridge -StoreConfig' to store it in the User Profil of the current user $($env:USERPROFILE + '\PhilipsHueBridge.xml').
 You can access the stored Bridge Information via 'get-PHBConfig' for further use.
 
-If you have successfully established a connection to your Philips Hue Bridge it's necessary to create a new API Application User with the 
+If you have successfully established a connection to your Philips Hue Bridge it's necessary to create a new API Application User with the 'new-PHAPIUser -Application 'YourApplicationName' '. To be able to do so you need to press the link button on your Philips Hue Bridge, now you have 30 secondes time to create a new API Application User. The -Application Parameter is mandatory, the -Storecreds parameter is optional. 
+
+
+
+

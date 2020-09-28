@@ -23,6 +23,8 @@
    get-PHBridge -ModelNumber
 .EXAMPLE 5
    get-PHBridge -SerialNumber
+.EXAMPLE 5
+   get-PHBridge -StoreConfig
 #>
 function get-PHBridge
 {

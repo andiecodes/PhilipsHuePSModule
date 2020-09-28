@@ -6,9 +6,9 @@
 .DESCRIPTION
    Long description
 .EXAMPLE
-   Example of how to use this cmdlet
-.EXAMPLE
-   Another example of how to use this cmdlet
+   new-PHAPIUser -Application
+.EXAMPLE 1
+   new-PHAPIUser -Application -StoreCreds
 #>
 function new-PHAPIUser
 {
@@ -28,7 +28,6 @@ function new-PHAPIUser
       $body = "{`"devicetype`": `"$Application`"}"
       $PhilipsHueBridgeConfig = load-PHBConfig
       $PHUser = $(Invoke-WebRequest "http://$($PhilipsHueBridgeConfig.IP)/api/" -Method Post -Body $body).content
-      $PHUser 
     }
     Process
     {
@@ -39,7 +38,7 @@ function new-PHAPIUser
     }
     End
     {
-
+      $PHUser 
     }
 }
 
