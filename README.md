@@ -3,7 +3,7 @@ This Module allows you to detect a Philips Hue Bridge in your Network, currently
 
 It's based on the https://developers.meethue.com/ API Developer Guide Version 1.0
 
-## PHBridge cmdlets
+## [PHBridge cmdlets](https://github.com/andiecodes/PhilipsHuePSModule/tree/master/PHBridge_config_cmdlets)
 
 The first thing you need to do is, detect your Philips Hue Bridge with the `get-PHBridge` cmdlet.
 
@@ -16,11 +16,11 @@ It's recommended to store the Information about your Hue Bridge, because the det
 The Module offers an easy way to store Bridge Information. Use `get-PHBridge -StoreConfig` to store it in the User Profil of the current user $($env:USERPROFILE + '\PhilipsHueBridge.xml').
 You can access the stored Bridge Information via `get-PHBConfig` for further use.
 
-## PHAPI cmdlets
+## [PHAPI cmdlets](https://github.com/andiecodes/PhilipsHuePSModule/tree/master/PHAPI_config_cmdlets)
 
 If you have successfully established a connection to your Philips Hue Bridge it's necessary to create a new API Application User with the `new-PHAPIUser -Application 'YourApplicationName'`cmdlet. To be able to do so you need to **press the link button** on your Philips Hue Bridge, now you have 30 secondes time to create a new API Application User. The `-Application` Parameter is mandatory, the `-Storecreds` parameter is optional. 
 
-## PHAPI lights cmdlets
+## [PHAPI lights cmdlets](https://github.com/andiecodes/PhilipsHuePSModule/tree/master/PHAPI_lights_cmdlets)
 
 
 
