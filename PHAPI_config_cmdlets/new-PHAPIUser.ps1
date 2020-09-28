@@ -1,4 +1,4 @@
-#region new-PHapiUser
+#region new-PHAPIUser
 
 <#
 .Synopsis
@@ -10,7 +10,7 @@
 .EXAMPLE
    Another example of how to use this cmdlet
 #>
-function new-PHapiUser
+function new-PHAPIUser
 {
     [CmdletBinding()]
     [Alias()]
@@ -44,4 +44,4 @@ function new-PHapiUser
 }
 
 
-#endregion new-PHapiUser
+#endregion new-PHAPIUser

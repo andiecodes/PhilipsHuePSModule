@@ -1,5 +1,5 @@
 
-#region get-PHapiUser
+#region get-PHAPIUser
 
 <#
 .Synopsis
@@ -11,7 +11,7 @@
 .EXAMPLE
    Another example of how to use this cmdlet
 #>
-function get-PHapiUser
+function get-PHAPIUser
 {
     [CmdletBinding()]
     [Alias()]
@@ -35,7 +35,7 @@ function get-PHapiUser
           $USRArray += $PHBUserObject
           $i++
         }
-        $USRArray | ft
+        $USRArray | Format-Table
         $File = Read-Host "Please choose the User Number you want to use to login " 
         $FileName = $USRArray | Where-Object Number -EQ $File
         $UserRaw = $(Import-Clixml $($env:USERPROFILE + "\$($FileName.User)") | convertfrom-json).success.username
@@ -56,4 +56,4 @@ function get-PHapiUser
 }
 
 
-#endregion get-PHapiUser
+#endregion get-PHAPIUser

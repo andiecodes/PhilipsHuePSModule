@@ -1,20 +1,20 @@
-#region get-PHapiInformation
+#region get-PHAPIInformation
 
 <#
 .Synopsis
-   get-PHapiInformation
+   get-PHAPIInformation
 .DESCRIPTION
    Long description
 .EXAMPLE
-   get-PHapiInformation
+   get-PHAPIInformation
 .EXAMPLE 1
-   get-PHapiInformation -apiversion 
+   get-PHAPIInformation -apiversion 
 .EXAMPLE 2
-   get-PHapiInformation -name 
+   get-PHAPIInformation -name 
 .EXAMPLE 3 
-   get-PHapiInformation -mac
+   get-PHAPIInformation -mac
 #>
-function get-PHapiInformation
+function get-PHAPIInformation
 {
     [CmdletBinding()]
     [Alias()]
@@ -54,4 +54,4 @@ function get-PHapiInformation
     }
 }
 
-#endregion get-PHapiInformation
+#endregion get-PHAPIInformation
