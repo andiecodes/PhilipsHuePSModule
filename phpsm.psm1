@@ -18,7 +18,7 @@ foreach($File in $AllPSFiles){Import-Module -Name $File.FullName}
 
 #get-PHapiInformation
 
-#new-PHapiUser -Application 'User123' -StoreCreds
+#new-PHapiUser -Application 'WIN10User' -StoreCreds
 
 #get-PHapiUser
 
