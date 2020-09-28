@@ -7,8 +7,7 @@ It's based on the https://developers.meethue.com/ API Developer Guide Version 1.
 
 The first thing you need to do is, detect your Philips Hue Bridge with the `get-PHBridge` cmdlet.
 
-I'm using the supported UPnPDeviceFinder to detect the Bridge
-After this step i store the Information from http://YourPhilipsHueBridgeIP/description.xml
+I'm using the supported UPnPDeviceFinder to detect the Bridge after this step i store the Information from http://YourPhilipsHueBridgeIP/description.xml
 in a PS-Object. This cmdlet has several switches like `-IP` or `-SerialNumber`, see [Examples](https://github.com/andiecodes/PhilipsHuePSModule/blob/master/PHBridge_config_cmdlets/get-PHBridge.ps1)
 
 It also includes an Error handler if no Device with the ModelName '*Philips hue bridge*' was found.
