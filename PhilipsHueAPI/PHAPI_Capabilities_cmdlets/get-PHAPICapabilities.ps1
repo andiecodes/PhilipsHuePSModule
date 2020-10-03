@@ -43,7 +43,7 @@ function get-PHLights
     {
     }
 }
-
+get-PHLights
 
 
 #endregion get-PHLights
